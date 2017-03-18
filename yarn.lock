@@ -3452,8 +3452,8 @@ pm2@^2.4.2:
     gkt "https://tgz.pm2.io/gkt-1.0.0.tgz"
 
 pmx@^1.0.2:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/pmx/-/pmx-1.0.3.tgz#ed325396f246123240996adac96c80be442b7a5f"
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/pmx/-/pmx-1.0.4.tgz#4a4b574aef5e57d297bbccab437c8aeacf83205c"
   dependencies:
     debug "^2.6"
     json-stringify-safe "^5.0"
