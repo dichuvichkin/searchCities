@@ -5,6 +5,7 @@ const renderApp = () => `<!doctype html>
 <html lang="ru">
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Список городов</title>
     <link rel="stylesheet" href="${isProd ? STATIC_PATH : `http://localhost:${WDS_PORT}/dist`}/css/style.css">
   </head>

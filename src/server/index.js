@@ -33,6 +33,10 @@ app.post('/cities', (req, res) => {
     const matchArray = findMatches(req.body.word, JSON.parse(data));
     const wordsToSend = [];
     const count = Number(req.body.count);
+    // Добавляем в массив wordsToSend такое количество слов, которое мы указали в запросе
+    // и присвоили переменной count
+    setLimit(wordsToSend, matchArray, count);
+    // Последним элементом массива указываем количество показанных городов
     setLimit(wordsToSend, matchArray, count);
     howMuchLeft(wordsToSend, matchArray, count);
     res.write(JSON.stringify(wordsToSend));
